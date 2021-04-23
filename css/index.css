@@ -1,0 +1,157 @@
+/*
+=============================================================
+                            Body
+=============================================================
+*/
+
+body{
+  font-family: fantasy;
+  background: #9f3542;
+}
+
+/*
+=============================================================
+                            Imagem
+=============================================================
+*/
+
+section#slide{
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+h1#imgTitle{
+  font-size: 60px;
+}
+
+h3#imgSub{
+  font-size: 25px;
+}
+
+button#imgBut{
+  padding: 15px 32px;
+  background: #fca417;
+  color: white;
+  text-shadow: black 2px 2px 3px;
+  font-size: 16px;
+  font-style: strong;
+  display: inline-block;
+  border: none;
+  border-radius: 12px;
+  margin: 2px 2px;
+}
+
+button#imgBut:hover{
+  background-color: #f96c07;
+  color: #white;
+}
+
+img#game{
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  transition: height 2s;
+}
+
+/*
+=============================================================
+                            Cards
+=============================================================
+*/
+
+div.fundo1{
+  width: 100%;
+  height: auto;
+  background-color: #d14657;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 5px; */
+}
+
+div..fundo1.card{
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+div.fundo1 .card .face{
+  border-radius: 12px;
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+div.fundo1 .card .face.face1{
+  position: relative;
+  background: #9f3542;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+div.fundo1 .card:hover .face.face1{
+  background: #9f3542;
+  transform: translateY(0);
+}
+
+div.fundo1 .card .face.face1 .content{
+  font-size: 1em;
+  padding: 0;
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+div.fundo1 .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+div.fundo1 .card .face.face1 .content img{
+  max-width: 100px;
+}
+
+div.fundo1 .card .face.face2{
+  height: 170px;
+  position: relative;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  color: black;
+}
+
+div.fundo1 .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+div.fundo1 .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+button.butLerMais{
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  border: 1px solid #333;
+  padding: 5px;
+  position: absolute;
+  background: #f7dbde;
+  border-radius: 12px;
+}
+
+button.butLerMais:hover{
+  background: #333;
+  color: #fff;
+}
