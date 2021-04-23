@@ -1,6 +1,8 @@
 Meu primeiro site.
 Bem simples, feito apenas com HTML e CSS. Um bom começo!
 
+Para vê-lo on-line (com algumas alterações), acesse: https://codepen.io/isa56/pen/WNRLBqb
+
 Próximos passos:
 Fazer as páginas Portifólio e Sobre mim.
 OBS: Talvez usar algum template e criar o código?
